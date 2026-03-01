@@ -5,6 +5,10 @@ Usage: python inference.py
 Requires: processed_data/quickdraw_test.npz, best_champion.pt
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import os
 import argparse
 import numpy as np
